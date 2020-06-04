@@ -49,3 +49,9 @@ import shutil
 #
 # x,y= FindAll('.\\查找目标源文件夹')
 # print(x,y)
+
+
+#测试复制文件的情况
+oldpath = 'C:\\Users\\Administrator\\Desktop\\新建文件夹'
+newpath = 'C:\\Users\\Administrator\\Desktop\\新建文件夹 (2)'
+shutil.copy(os.path.join(oldpath,'新建文本文档.txt'),os.path.join(newpath,'111.txt'))
