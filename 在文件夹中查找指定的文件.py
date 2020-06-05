@@ -29,7 +29,7 @@ def FindAndCopyMoveOne(path,str1):
     else:
         print('【{}】文件夹找到{}个文件'.format(searchdir, filecountindir))
         with open(r'.\查找结果文件夹\查找结果日志.txt','a+') as file:
-            file.write('【{}】文件夹找到{}个文件：\n{}\n\n'.format(searchdir, filecountindir,filefindedlist))
+            file.write('【{}】文件夹找到{}个文件：{}\n\n'.format(searchdir, filecountindir,filefindedlist))
 
 
 # 定义一个函数实现查找文件并加上文件夹名字
@@ -59,7 +59,7 @@ def FindAndCopyMoveTow(path,str1):
     else:
         print('【{}】文件夹找到{}个文件'.format(searchdir, filecountindir))
         with open(r'.\查找结果文件夹\查找结果日志.txt','a+') as file:
-            file.write('【{}】文件夹找到{}个文件：\n{}\n\n'.format(searchdir, filecountindir,filefindedlist))
+            file.write('【{}】文件夹找到{}个文件：{}\n\n'.format(searchdir, filecountindir,filefindedlist))
 
 
 #  文件主执行程序
