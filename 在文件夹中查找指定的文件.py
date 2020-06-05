@@ -65,7 +65,6 @@ def FindAndCopyMoveTow(path,str1):
 #  文件主执行程序
 def MainProgram():
     while True:
-        i = os.system('cls')
         if not os.path.exists('.\\查找目标源文件夹'):
             os.mkdir('.\\查找目标源文件夹')
         if os.path.exists('.\\查找结果文件夹'):
@@ -76,6 +75,7 @@ def MainProgram():
                 except PermissionError:
                     input('程序所在文件夹内【查找结果文件夹】中有文件打开，关闭文件后，回车键启动程序！')
                     pass
+        i = os.system('cls')
         print('*'*10+'欢迎使用本程序'+'*'*10)
         print('\n')
         print('【说明】：本程序可以通过文件名字的关键词用来查找1个或多个文件夹中你需要的文件！\n')
