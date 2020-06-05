@@ -114,6 +114,7 @@ def MainProgram():
                         i=os.system('cls')
                         print('没有在【查找目标源文件夹】中找到任何文件夹或文件，请确认已经将需要查找的'
                               '文件拷入到该文件夹')
+                        input('回车键继续……')
                     else:
                         i=os.system('cls')
                         print('已经在【查找目标源文件夹】中找到{}个文件夹，{}个文件！'
@@ -170,6 +171,7 @@ def MainProgram():
                         i=os.system('cls')
                         print('没有在【查找目标源文件夹】中找到任何文件夹或文件，请确认已经将需要查找的'
                               '文件拷入到该文件夹')
+                        input('回车键继续……')
                     else:
                         i=os.system('cls')
                         print('已经在【查找目标源文件夹】中找到{}个文件夹，{}个文件！'
